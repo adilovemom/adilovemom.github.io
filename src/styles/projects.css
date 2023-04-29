@@ -1,0 +1,405 @@
+/*PROJECT*/
+.project_div {
+  background-color: #000;
+  height: 30vh;
+  padding: 5% 0;
+  padding-top: 5%;
+  background-image: url("../img/Parallax01.jpg");
+  background-position: 40% 52%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.project_div::before {
+  background-color: #000;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+}
+.slider-div {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  /* margin-bottom: 15%; */
+  /* padding: 50px 0; */
+}
+.silde-div > div {
+  background-color: #00ffbb;
+  width: 85%;
+  height: 20rem;
+  margin: auto;
+  transition: all 0.5s ease;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  border-radius: 5px;
+}
+
+.slider-div .slick-slider .next-arrow {
+  right: 3rem !important;
+}
+.slider-div .slick-slider .prev-arrow {
+  left: 3rem !important;
+}
+
+.slider-div .slick-slider .next-arrow,
+.slider-div .slick-slider .prev-arrow {
+  position: absolute;
+  z-index: 55;
+  top: 40%;
+  right: 3rem;
+  width: 6rem;
+  height: 6rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slider-div .slick-slider .prev-arrow::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: #706f6f;
+  display: block;
+}
+
+.slider-div .slick-slider .prev-arrow::after {
+  content: "";
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2px;
+  left: -1px;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  border-color: #706f6f;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.slider-div .slick-slider .next-arrow::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: #706f6f;
+  display: block;
+}
+
+.slider-div .slick-slider .next-arrow::after {
+  content: "";
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2px;
+  left: -1px;
+  border-width: 0 2px 0 0;
+  border-style: solid;
+  border-color: #706f6f;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.slider-div .slick-slider .prev-arrow {
+  transform: rotate(-142deg);
+}
+
+.slider-div .slick-slider .next-arrow {
+  transform: rotate(40deg);
+}
+
+.img--1 > div {
+  background-image: url("https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg");
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--2 > div {
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/Octocat.png");
+  /* background-size: content; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--3 > div {
+  background-image: url("https://www.svgrepo.com/show/208227/recipe.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--4 > div {
+  background-image: url("https://www.wunderground.com/static/i/c/v4/30.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--5 > div {
+  background-image: url("https://www.svgrepo.com/show/127392/search.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--6 > div {
+  background-image: url("https://www.logo.wine/a/logo/McDonald's/McDonald's-Logo.wine.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+
+
+
+.silde-div > div:hover {
+  /* padding: 1rem; */
+  outline-offset: 5px;
+  outline: 1px solid #00ffbb;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.slick-dots li button:before {
+  color: #fff !important;
+}
+
+.learn_more {
+  padding: 1rem 2rem;
+  display: inline-block;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #fff;
+  /* box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.learn_more:hover {
+  color: #00ffbb;
+  border: 1px solid #00ffbb;
+}
+
+.small_btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.projectName {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: rgb(185, 184, 184);
+}
+.silde-div > div:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.projectName > * {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.5s ease;
+}
+.Projectheading h5 {
+  font-size: 2.5rem;
+}
+.Projectheading p {
+  font-size: 1.3rem;
+}
+.projectName > .Projectheading {
+  top: -60%;
+}
+
+.projectName:hover > .Projectheading {
+  top: 15%;
+}
+.projectName > .projectLearn {
+  bottom: -60%;
+}
+
+.projectName:hover > .projectLearn {
+  bottom: 13%;
+}
+.projectleft {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.project-detail {
+  width: 50%;
+  height: 95vh;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 3px;
+  /* border: 1px solid #fff; */
+  background-color: #fbfbfb;
+  color: #333;
+  backdrop-filter: blur(100px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.project-detail--img {
+  height: 55vh;
+  /* border: 1px solid #fff; */
+  /* overflow: hidden; */
+}
+.project-detail--img .slick-slider {
+  height: 100%;
+}
+.project-detail--img img {
+  width: 100%;
+  height: 55vh;
+  /* object-fit: cover; */
+}
+
+.slider-div .project-detail--img .slick-slider .slick-next:before {
+  content: " ";
+  transform: rotate(-45deg);
+}
+.slider-div .project-detail--img .slick-slider .slick-prev:before {
+  content: "";
+  transform: rotate(135deg);
+}
+.slider-div .project-detail--img .slick-slider .slick-prev:before,
+.slider-div .project-detail--img .slick-slider .slick-next:before {
+  font-family: auto !important;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.slider-div .project-detail--img .slick-slider .slick-next {
+  right: 0px !important;
+}
+.slider-div .project-detail--img .slick-slider .slick-prev {
+  left: 0px !important;
+  z-index: 55 !important;
+}
+
+.slider-div .project-detail--img .slick-slider .slick-prev,
+.slider-div .project-detail--img .slick-slider .slick-next {
+  top: 94% !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 2.5rem !important;
+}
+
+.project-detail--description {
+  padding: 2rem;
+  border-top: 3px solid #1b242f;
+  line-height: 3rem;
+}
+
+.project-detail--description h1 {
+  margin-bottom: 1rem;
+}
+.project-detail--description p {
+  margin-top: 1rem;
+}
+.project-detail--description > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-detail--description button {
+  padding: 0.2rem 2rem;
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  color: #fff;
+}
+
+.close--btn {
+  flex-basis: 20%;
+  margin-right: -2rem;
+  text-align: right;
+  cursor: pointer;
+}
+
+.close--btn img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.project-detail--description a {
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 5px;
+  color: #000;
+  padding: 0.2rem 0.8rem;
+  box-shadow: inset 0 0 0 #000;
+  height: 4rem;
+  transition: all 0.5s ease-out;
+}
+.project-detail--description a:hover {
+  box-shadow: inset 15rem 0 0 #000;
+  color: #fff;
+}
+
+.project-detail--description a:hover img {
+  filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg)
+    brightness(105%) contrast(105%);
+}
+
+@media screen and (max-width: 950px) {
+  .silde-div > div:hover {
+    outline: none;
+  }
+
+  .slider-div .slick-slider .next-arrow {
+    right: 2rem !important;
+  }
+  .slider-div .slick-slider .prev-arrow {
+    left: 2rem !important;
+  }
+
+  .silde-div > div {
+    width: 80%;
+    margin: auto;
+  }
+
+  .project_div {
+    height: auto;
+  }
+
+  .project-detail {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+  }
+  .project-detail--img {
+    height: 30vh;
+    margin-bottom: 0.8rem;
+  }
+
+  .project-detail--img img {
+    height: 30vh;
+    object-fit: contain;
+  }
+}

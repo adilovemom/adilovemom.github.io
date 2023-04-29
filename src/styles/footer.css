@@ -1,0 +1,92 @@
+.footer {
+  /* border: 1px solid #fff; */
+  width: 100%;
+  margin-top: 3rem;
+  transition: all 1s ease;
+}
+
+.footer__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 30vh;
+  gap: 1.5rem;
+  /* border: 1px solid #fff; */
+  background-color: #212121;
+  position: relative;
+}
+
+.footer__div > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0;
+  height: 10vh;
+}
+
+.footer__div span {
+  /* border: 1px solid #fff; */
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.5s linear;
+}
+
+.footer__div span p {
+  display: none;
+}
+
+.footer__div span:hover p {
+  display: block;
+}
+
+/* go to top button*/
+.topDiv {
+  /* border: 1px solid #fff; */
+  background-color: #000;
+  position: absolute;
+  top: -2.5rem;
+  right: 5rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.topDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  color: #ccd6f6;
+}
+.credit span {
+  padding: 0;
+}
+.change-my-color {
+  filter: invert(100%) sepia(60%) saturate(7359%) hue-rotate(178deg)
+    brightness(100%) contrast(93%);
+}
+
+@media screen and (max-width: 768px) {
+  .topDiv {
+    right: unset;
+  }
+  .credit > * {
+    margin: 0.5rem;
+  }
+}
+.my-details{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom:50px;
+}

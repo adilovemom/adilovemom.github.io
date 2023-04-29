@@ -1,0 +1,79 @@
+[
+  {
+    "project_id": "project1",
+    "images": [
+      "projects/youtube1.JPG",
+      "projects/youtube2.JPG",
+      "projects/youtube3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png"],
+    "project_title": "You Tube Clone",
+    "project_live": "https://youtube-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/Youtube_clone.git",
+    "projectDetails": "Clone of youtube.com using youtube API where user can watch and search videos."
+  },
+  {
+    "project_id": "project2",
+    "images": [
+      "projects/github1.JPG",
+      "projects/github2.JPG",
+      "projects/github3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Github Clone",
+    "project_live": "https://github-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/Github_clone.git",
+    "projectDetails": "Clone of github.com using Github API user can search their profiles & Authorization."
+  },
+  
+  {
+    "project_id": "project3",
+    "images": [
+      "projects/recipe1.JPG",
+      "projects/recipe2.JPG",
+      "projects/recipe3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Food Recipe App",
+    "project_live": "https://recipe-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/recipe-app.git",
+    "projectDetails": "Using themealdb API i try to make where user can search any type of food recepie and user friendly steps to understand."
+  },
+  {
+    "project_id": "project4",
+    "images": ["projects/weather.JPG"],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Weather App",
+    "project_live": "https://weather-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/weather-app.git",
+    "projectDetails": "It's Simple Weather APP using openweathermap API we can find any place temp, Map & coming forecast of weather."
+  },
+  
+  {
+    "project_id": "project5",
+    "images": [
+      "projects/movieapp1.JPG",
+      "projects/movieapp2.JPG",
+      "projects/movieapp3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "Movie Search App",
+    "project_live": "https://moviesearch-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/Movie-Search.git",
+    "projectDetails": "Movie Rating APP using themoviedb API we can search any movie. find information about movie release date, Imdb rating, etc."
+  },
+  
+  {
+    "project_id": "project6",
+    "images": [
+      "projects/mcdonald1.JPG",
+      "projects/mcdonald2.JPG",
+      "projects/mcdonald3.JPG"
+    ],
+    "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
+    "project_title": "McDonald's App",
+    "project_live": "https://mcdonalds-soumya.vercel.app/",
+    "project_github": "https://github.com/Soumyaranjankalia/Mc-donalds.git",
+    "projectDetails": "McDonald's order booking simple app."
+  }
+]
