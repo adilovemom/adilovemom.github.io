@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="header--div1">
         <p className="header-hi fadeLeft">Hi there </p>
         <h1 className="header--name fadeRight">Aditya Pradhan</h1>

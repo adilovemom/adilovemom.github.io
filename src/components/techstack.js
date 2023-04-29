@@ -2,7 +2,7 @@ import "../styles/tech.css";
 import react_logo from "../img/tech/react-logo.svg";
 function TechStack() {
   return (
-    <div className="techstack">
+    <div className="techstack" id="skills">
       <div className="stack-header">
         <p className="highlight">Tech stack I know</p>
         <h2 className="head">Teach Stack</h2>

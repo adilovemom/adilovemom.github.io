@@ -2,7 +2,7 @@ import "../styles/topProject.css";
 // import play from "../img/play.svg";
 function Toproject({ projectdata, description, techStack, imges, links }) {
   return (
-    <div className="top-Projects">
+    <div className="top-Projects" id="projects">
       <div>
         <h1>{projectdata}</h1>
         <p>{description} </p>

@@ -3,7 +3,7 @@ import "../styles/footer.css";
 // import icon from "../img/cssbattle.svg";
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer"  id="contact">
       <div className="stack-header">
         <p className="highlight">To connect with me</p>
         <h2 className="head">Contact me</h2>
