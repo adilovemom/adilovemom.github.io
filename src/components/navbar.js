@@ -33,43 +33,43 @@ function Navbar() {
           toggle && small === "small" ? "small_nav right--nav" : "right--nav"
         }
       >
-        <div class="nav-link home"
-          className="active"
+        <div 
+          className="active nav-link home"
           onClick={() => {
             settoggle(!toggle);
           }}
         >
           <a href="#top">Home</a>
         </div>
-        <div class="nav-link about"
+        <div className="nav-link about"
           onClick={() => {
             settoggle(!toggle);
           }}
         >
           <a href="#about">About</a>
         </div>
-        <div class="nav-link skills"
+        <div className="nav-link skills"
           onClick={() => {
             settoggle(!toggle);
           }}
         >
           <a href="#tech">Tech stack</a>
         </div>
-        <div class="nav-link projects"
+        <div className="nav-link projects"
           onClick={() => {
             settoggle(!toggle);
           }}
         >
           <a href="#projects">Project</a>
         </div>
-        <div class="nav-link contact"
+        <div className="nav-link contact"
           onClick={() => {
             settoggle(!toggle);
           }}
         >
           <a href="#contact">Contact Me</a>
         </div>
-        <div className="cv" class="nav-link resume">
+        <div className="cv nav-link resume">
           <a
             href="https://drive.google.com/file/d/12aJ2uOc_6oE3zJAi8xt8G-21J8fHVUMb/view?usp=sharing"
             target="_blank"
